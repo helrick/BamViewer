@@ -22,8 +22,6 @@ class Browser extends Component {
           name: "test",
           url: "gs://genomics-public-data/platinum-genomes/bam/NA12889_S1.bam",
           indexURL: "gs://genomics-public-data/platinum-genomes/bam/NA12889_S1.bam.bai"
-          //url: "/Volumes/ccm_dccforge/dccforge/results/17x/1737/1737_SK0113.bam",
-          //indexURL: "/Volumes/ccm_dccforge/dccforge/results/17x/1737/1737_SK0113.bam.bai"
         }
       ]
     };
