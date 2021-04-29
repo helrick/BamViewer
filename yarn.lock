@@ -5224,6 +5224,31 @@ ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
+"igv-ui@git+https://github.com/igvteam/igv-ui.git#v1.1.5":
+  version "1.1.4"
+  uid ecb455c48cf46e8d36bfa3c868c2d1df59fa0d11
+  resolved "git+https://github.com/igvteam/igv-ui.git#ecb455c48cf46e8d36bfa3c868c2d1df59fa0d11"
+  dependencies:
+    igv-utils "github:igvteam/igv-utils#v1.2.3"
+
+"igv-utils@git+https://github.com/igvteam/igv-utils.git#v1.2.6":
+  version "1.2.6"
+  uid "1db2aaf8b456daab321cb4a2663480c8d02c1139"
+  resolved "git+https://github.com/igvteam/igv-utils.git#1db2aaf8b456daab321cb4a2663480c8d02c1139"
+
+"igv-utils@github:igvteam/igv-utils#v1.2.3":
+  version "1.2.2"
+  uid b01d4e5c6f1448e4b3abb955c813c1163c7b0bda
+  resolved "https://codeload.github.com/igvteam/igv-utils/tar.gz/b01d4e5c6f1448e4b3abb955c813c1163c7b0bda"
+
+igv@^2.6.6:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/igv/-/igv-2.8.1.tgz#8e52b1021cabd8e474256cff48b1f866c8964541"
+  integrity sha512-2TIwSYS9vZz2+fNeBucwqQzSP7WRGagMNdboojEVFkJNjEt2jnFa3XoyhkGrsDPmaESC6XEB16wXCdc4MzF6FQ==
+  dependencies:
+    igv-ui "git+https://github.com/igvteam/igv-ui.git#v1.1.5"
+    igv-utils "git+https://github.com/igvteam/igv-utils.git#v1.2.6"
+
 immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
@@ -10803,9 +10828,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.3.tgz#b5f259c82cd6e336921efd7bfd8bf560de9eeedf"
+  integrity sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==
 
 yallist@^3.0.2:
   version "3.1.1"
